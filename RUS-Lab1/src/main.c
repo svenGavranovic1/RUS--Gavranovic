@@ -1,24 +1,33 @@
 /**
  * @file main.c
- * @brief Glavni program za Lab1 - višestruki prekidi.
+ * @brief Minimalni primjer za ESP32 prekid tipkala.
  */
 
-#include "interrupts.h"
-#include "timer.h"
-#include "sensor.h"
-#include "uart.h"
-#include "buttons.h"
+#include <Arduino.h>
 
-int main() {
-    // inicijalizacija sustava
-    initInterrupts();
-    initTimer();
-    initSensor();
-    initUART();
-    initButtons();
+#define BUTTON_PIN 15
+#define LED_PIN 2
 
-    while (1) {
-        // glavna petlja
-        // ovdje se obrađuju flagovi iz ISR-ova
+volatile bool buttonPressed = false;
+
+/**
+ * @brief ISR za tipkalo (najviši prioritet).
+ */
+void IRAM_ATTR buttonISR() {
+    buttonPressed = true;
+}
+
+void setup() {
+    pinMode(LED_PIN, OUTPUT);
+    pinMode(BUTTON_PIN, INPUT_PULLUP);
+
+    // attachInterrupt(pin, funkcija, edge)
+    attachInterrupt(BUTTON_PIN, buttonISR, FALLING);
+}
+
+void loop() {
+    if (buttonPressed) {
+        buttonPressed = false;
+        digitalWrite(LED_PIN, !digitalRead(LED_PIN));
     }
 }
