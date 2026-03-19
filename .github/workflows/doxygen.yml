@@ -29,8 +29,8 @@ jobs:
           cd RUS-Lab1
           doxygen Doxyfile
       
-          - name: Show Doxygen output
-          run: cat RUS-Lab1/Doxyfile
+      - name: Show Doxygen output
+        run: cat RUS-Lab1/Doxyfile
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
