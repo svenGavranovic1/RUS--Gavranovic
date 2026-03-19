@@ -31,7 +31,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./RUS-Lab1/docs/html
+          publish_dir: ./docs/html
           force_orphan: true
 
-          

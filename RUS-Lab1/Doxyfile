@@ -8,7 +8,7 @@
 PROJECT_NAME           = "RUS_Lab1_prekid"
 PROJECT_BRIEF          = "Lab1: Ugradbeni sustav s prekidima u C jeziku"
 PROJECT_LOGO           =
-OUTPUT_DIRECTORY       = ../docs
+OUTPUT_DIRECTORY       = docs
 CREATE_SUBDIRS         = YES
 DOXYFILE_ENCODING      = UTF-8
 
