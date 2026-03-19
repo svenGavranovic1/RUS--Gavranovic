@@ -21,8 +21,14 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y doxygen graphviz
 
+      - name: Debug
+        run: ls -R .
+
       - name: Generate Documentation
-        run: doxygen RUS-Lab1/Doxyfile
+        run: |
+          cd RUS-Lab1
+          doxygen Doxyfile
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
