@@ -4,32 +4,103 @@
   "editor": "wokwi",
   "parts": [
     {
-      "type": "board-esp32-devkit-c-v4",
+      "type": "board-esp32-s2-devkitm-1",
       "id": "esp",
       "top": 0,
-      "left": 0
+      "left": 0,
+      "attrs": { "builder": "esp32-core-2.0.7" }
     },
     {
       "type": "wokwi-pushbutton",
-      "id": "btn1",
-      "top": -20,
-      "left": 200,
-      "attrs": { "color": "green", "xray": "1" }
+      "id": "btn_int0",
+      "top": -166.6,
+      "left": 316.8,
+      "attrs": { "color": "red", "xray": "1", "label": "INT0" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn_int1",
+      "top": -99.4,
+      "left": 316.8,
+      "attrs": { "color": "yellow", "xray": "1", "label": "INT1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn_int2",
+      "top": -32.2,
+      "left": 316.8,
+      "attrs": { "color": "green", "xray": "1", "label": "INT2" }
     },
     {
       "type": "wokwi-led",
-      "id": "led",
-      "top": 80,
-      "left": 200,
+      "id": "led_int0",
+      "top": -61.2,
+      "left": 464.6,
       "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_int1",
+      "top": -61.2,
+      "left": 522.2,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_int2",
+      "top": -61.2,
+      "left": 579.8,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_timer",
+      "top": -61.2,
+      "left": 637.4,
+      "attrs": { "color": "white" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_alert",
+      "top": -61.2,
+      "left": 704.6,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultra",
+      "top": -161.7,
+      "left": 82.3,
+      "attrs": { "distance": "100" }
     }
   ],
   "connections": [
-    [ "btn1:1.l", "esp:15", "green", [ "v0" ] ],
-    [ "btn1:2.l", "esp:GND", "black", [ "v0" ] ],
-    [ "led:1", "esp:2", "red", [ "v0" ] ],
-    [ "led:2", "esp:GND", "black", [ "v0" ] ],
+    [ "btn_int0:1.l", "esp:15", "green", [ "h-38.4", "v403.2", "h-345.6", "v-72.49" ] ],
+    [ "btn_int0:2.l", "esp:GND.1", "black", [ "v0" ] ],
+    [ "btn_int1:1.l", "esp:4", "green", [ "h-9.6", "v157.91" ] ],
+    [ "btn_int1:2.l", "esp:GND.1", "black", [ "v326.6", "h-336", "v-43.69" ] ],
+    [ "btn_int2:1.l", "esp:5", "green", [ "h-19.2", "v100.31" ] ],
+    [ "btn_int2:2.l", "esp:GND.1", "black", [ "v269", "h-345.6", "v-53.29" ] ],
+    [ "led_int0:A", "esp:25", "red", [ "v0" ] ],
+    [ "led_int0:C", "esp:GND.2", "black", [ "v0" ] ],
+    [ "led_int1:A", "esp:26", "yellow", [ "v211.2", "h-422.4", "v-14.89" ] ],
+    [ "led_int1:C", "esp:GND.2", "black", [ "v0" ] ],
+    [ "led_int2:A", "esp:27", "green", [ "v0" ] ],
+    [ "led_int2:C", "esp:GND.2", "black", [ "v0" ] ],
+    [ "led_timer:A", "esp:2", "white", [ "v0" ] ],
+    [ "led_timer:C", "esp:GND.3", "black", [ "v0" ] ],
+    [ "led_alert:A", "esp:33", "blue", [ "v220.8", "h-595.2", "v-28.8", "h-42.97" ] ],
+    [ "led_alert:C", "esp:GND.3", "black", [ "v0" ] ],
+    [ "ultra:TRIG", "esp:12", "orange", [ "v19.2", "h-202", "v196.31" ] ],
+    [ "ultra:ECHO", "esp:14", "purple", [ "h-0.8", "v28.8", "h-240", "v205.91" ] ],
+    [ "ultra:VCC", "esp:3V3", "red", [ "v38.4", "h-182.4", "v57.6" ] ],
+    [ "ultra:GND", "esp:GND.1", "black", [ "v355.2", "h-231.6", "v-72.49" ] ],
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
-    [ "esp:RX", "$serialMonitor:TX", "", [] ]
-  ]
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "led_int0:A", "esp:39", "red", [ "v0" ] ],
+    [ "led_int2:A", "esp:38", "green", [ "v0" ] ],
+    [ "led_timer:C", "esp:GND.2", "black", [ "v0" ] ],
+    [ "led_alert:C", "esp:GND.2", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
 }
