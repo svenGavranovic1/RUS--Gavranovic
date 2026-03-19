@@ -33,3 +33,5 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./RUS-Lab1/docs/html
           force_orphan: true
+
+          
