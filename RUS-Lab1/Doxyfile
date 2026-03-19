@@ -5,97 +5,94 @@
 #-----------------------------------------------------------------------------
 # Opći podaci o projektu
 #-----------------------------------------------------------------------------
-PROJECT_NAME           = "RUS_Lab1_prekid"           
+PROJECT_NAME           = "RUS_Lab1_prekid"
 PROJECT_BRIEF          = "Lab1: Ugradbeni sustav s prekidima u C jeziku"
-PROJECT_LOGO           =                             
-OUTPUT_DIRECTORY       = docs                        
-CREATE_SUBDIRS         = YES                         
-DOXYFILE_ENCODING      = UTF-8                       
+PROJECT_LOGO           =
+OUTPUT_DIRECTORY       = ../docs
+CREATE_SUBDIRS         = YES
+DOXYFILE_ENCODING      = UTF-8
 
 #-----------------------------------------------------------------------------
 # Glavna stranica dokumentacije
 #-----------------------------------------------------------------------------
-USE_MDFILE_AS_MAINPAGE = README.md                   
+USE_MDFILE_AS_MAINPAGE = README.md
 
 #-----------------------------------------------------------------------------
 # Izvorne datoteke
 #-----------------------------------------------------------------------------
-INPUT                  = .                           
-RECURSIVE              = YES                         
-FILE_PATTERNS          = *.c *.h *.ino               
-EXTENSION_MAPPING      = ino=c                       
+# OVDJE JE KLJUČNA PROMJENA:
+# Doxyfile se nalazi u RUS-Lab1, pa INPUT = .
+INPUT                  = .
+RECURSIVE              = YES
+FILE_PATTERNS          = *.c *.h *.ino
+EXTENSION_MAPPING      = ino=c
 
 #-----------------------------------------------------------------------------
 # Izlazni formati
 #-----------------------------------------------------------------------------
-GENERATE_HTML          = YES                         
-HTML_OUTPUT            = html                        
-GENERATE_LATEX         = NO                          
-GENERATE_RTF           = NO                          
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+GENERATE_RTF           = NO
 
 #-----------------------------------------------------------------------------
 # HTML izgled i ponašanje
 #-----------------------------------------------------------------------------
-HTML_COLORSTYLE        = AUTO_LIGHT                  
-HTML_DYNAMIC_SECTIONS  = YES                         
-GENERATE_TREEVIEW      = YES                         
-DISABLE_INDEX          = NO                          
-SHOW_USED_FILES        = YES                         
-SHOW_FILES             = YES                         
+HTML_COLORSTYLE        = AUTO_LIGHT
+HTML_DYNAMIC_SECTIONS  = YES
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+SHOW_USED_FILES        = YES
+SHOW_FILES             = YES
 
 #-----------------------------------------------------------------------------
 # Izvlačenje dokumentacije iz koda
 #-----------------------------------------------------------------------------
-EXTRACT_ALL            = YES                         
-EXTRACT_PRIVATE        = YES                         
-EXTRACT_STATIC         = YES                         
-EXTRACT_LOCAL_CLASSES  = YES                         
-OPTIMIZE_OUTPUT_FOR_C  = YES                         
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+OPTIMIZE_OUTPUT_FOR_C  = YES
 
 #-----------------------------------------------------------------------------
 # Dijagrami i grafički prikazi (Graphviz/DOT)
 #-----------------------------------------------------------------------------
-HAVE_DOT               = YES                         
-DOT_PATH               = /usr/bin/dot                
-DOT_NUM_THREADS        = 2                           
-DOT_FONTNAME           = Helvetica                   
-DOT_FONTSIZE           = 10                          
+HAVE_DOT               = YES
+DOT_PATH               = /usr/bin/dot
+DOT_NUM_THREADS        = 2
+DOT_FONTNAME           = Helvetica
+DOT_FONTSIZE           = 10
 
-CLASS_DIAGRAMS         = YES                         
-CALL_GRAPH             = YES                         
-CALLER_GRAPH           = YES                         
-COLLABORATION_GRAPH    = YES                         
-INCLUDE_GRAPH          = YES                         
-INCLUDED_BY_GRAPH      = YES                         
-DIRECTORY_GRAPH        = YES                         
-GRAPHICAL_HIERARCHY    = YES                         
-TEMPLATE_RELATIONS     = YES                         
-INTERACTIVE_SVG        = YES                         
+CLASS_DIAGRAMS         = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+DIRECTORY_GRAPH        = YES
+GRAPHICAL_HIERARCHY    = YES
+TEMPLATE_RELATIONS     = YES
+INTERACTIVE_SVG        = YES
 
 #-----------------------------------------------------------------------------
 # Upozorenja i provjera kvalitete
 #-----------------------------------------------------------------------------
-WARNINGS               = YES                         
-WARN_IF_UNDOCUMENTED   = YES                         
-WARN_IF_INCOMPLETE_DOC = YES                         
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_INCOMPLETE_DOC = YES
 
 #-----------------------------------------------------------------------------
 # Obrada preprocesiranog koda
 #-----------------------------------------------------------------------------
-ENABLE_PREPROCESSING   = YES                         
-MACRO_EXPANSION        = YES                         
-EXPAND_ONLY_PREDEF     = NO                          
-SKIP_FUNCTION_MACROS   = NO                          
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+SKIP_FUNCTION_MACROS   = NO
 
 #-----------------------------------------------------------------------------
 # Ostale postavke
 #-----------------------------------------------------------------------------
-OUTPUT_LANGUAGE        = English                     
-EXCLUDE_SYMLINKS       = YES                         
-TAB_SIZE               = 4                           
-QUIET                  = NO                          
-
-#-----------------------------------------------------------------------------
-# Završno
-#-----------------------------------------------------------------------------
-# Za @dot dijagrame u komentarima, Doxygen će ih generirati ako je Graphviz instaliran.
+OUTPUT_LANGUAGE        = English
+EXCLUDE_SYMLINKS       = YES
+TAB_SIZE               = 4
+QUIET                  = NO

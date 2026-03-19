@@ -22,7 +22,9 @@ jobs:
           sudo apt-get install -y doxygen graphviz
 
       - name: Generate Documentation
-        run: doxygen Doxyfile
+        run: |
+          cd RUS-Lab1
+          doxygen Doxyfile
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
