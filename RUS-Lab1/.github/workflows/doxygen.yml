@@ -1,6 +1,7 @@
 name: Doxygen Documentation
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
 
