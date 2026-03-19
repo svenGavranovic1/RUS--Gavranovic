@@ -22,15 +22,13 @@ jobs:
           sudo apt-get install -y doxygen graphviz
 
       - name: Generate Documentation
-        run: |
-          cd RUS-Lab1
-          doxygen Doxyfile
+        run: doxygen RUS-Lab1/Doxyfile
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./docs/html
+          publish_dir: ./RUS-Lab1/docs/html
           force_orphan: true
 
