@@ -100,7 +100,7 @@ U folderu `/wokwi` nalazi se `main.ino` koji je spreman za pokretanje u Wokwi‑
 
 ## Dokumentacija (Doxygen)
 
-Projekt je u potpunosti dokumentiran Doxygen anotacijama.  
+Projekt je u potpunosti dokumentiran Doxygen anotacijama i nalazi se na sljedećoj poveznici: https://svengavranovic1.github.io/RUS--Gavranovic/files.html
 
 
 ## Autor
