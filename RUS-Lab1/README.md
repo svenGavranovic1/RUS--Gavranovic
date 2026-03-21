@@ -62,7 +62,7 @@ sequenceDiagram
     participant User as Korisnik/Prepreka
     participant Sensor as HC-SR04 / Tipkalo
     participant ISR as ESP32 ISR (Prekid)
-    participant Loop as ESP32 Main Loop
+    participant MainLoop as ESP32 Main Loop
 
     Note over User, Sensor: Fizički događaj
     User->>Sensor: Pritisak tipkala / Odjek ultrazvuka
@@ -70,11 +70,11 @@ sequenceDiagram
     
     Note right of ISR: Prekid procesora!
     ISR->>ISR: Postavi flag = true
-    ISR-->>Loop: Povratak u normalan rad
+    ISR-->>MainLoop: Povratak u normalan rad
     
-    Note over Loop: Sljedeća iteracija petlje
-    Loop->>Loop: Provjera flag-a
-    Loop->>Sensor: Akcija (Upali LED)
+    Note over MainLoop: Sljedeća iteracija petlje
+    MainLoop->>MainLoop: Provjera flag-a
+    MainLoop->>Sensor: Akcija (Upali LED)
 ```
 
 
