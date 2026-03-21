@@ -153,3 +153,4 @@ Projekt je u potpunosti dokumentiran Doxygen anotacijama i nalazi se na sljedeć
 Sven  
 Tehničko Veleučilište u Zagrebu
 Kolegij: RUS — Razvoj ugradbenih sustava
+
