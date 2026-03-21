@@ -30,6 +30,7 @@ main.ino   ← verzija za simulaciju u Wokwi-ju
 
 ## Control Flow Graph (CFG) - Logika unutar loop()
 
+```mermaid
 flowchart TD
     Start((Loop Start)) --> Trig{200ms?}
     Trig -- Yes --> SendTrig[hcsr04_trigger] --> DistFlag
@@ -52,9 +53,11 @@ flowchart TD
     
     PlotCheck -- Yes --> Plot[plotData] --> End((Loop End))
     PlotCheck -- No --> End
+```
 
 ## Sequence Diagram (UML) - Interakcija Hardvera
 
+```mermaid
 sequenceDiagram
     participant User as Korisnik/Prepreka
     participant Sensor as HC-SR04 / Tipkalo
@@ -72,10 +75,8 @@ sequenceDiagram
     Note over Loop: Sljedeća iteracija petlje
     Loop->>Loop: Provjera flag-a
     Loop->>Sensor: Akcija (Upali LED)
+```
 
-Code
-
----
 
 ## Opis modula
 
