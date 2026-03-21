@@ -1,0 +1,7 @@
+<map id="src/interrupts.h" name="src/interrupts.h">
+<area shape="rect" id="Node000001" title="Centralizirana inicijalizacija svih prekida." alt="" coords="69,5,189,31"/>
+<area shape="rect" id="Node000002" href="$d8/d22/interrupts_8c.html" title="Implementacija centralne registracije prekida." alt="" coords="5,79,124,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,43,77,80,73,77,107,39"/>
+<area shape="rect" id="Node000003" href="$d0/d29/main_8c.html" title="Glavni program za RUS_Lab1_prekidi (verzija za predaju profesoru)." alt="" coords="148,79,237,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,39,184,77,180,80,146,43"/>
+</map>

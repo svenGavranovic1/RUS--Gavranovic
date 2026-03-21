@@ -1,0 +1,9 @@
+<map id="onTimer" name="onTimer">
+<area shape="rect" id="Node000001" title="ISR za hardverski timer." alt="" coords="417,5,493,31"/>
+<area shape="rect" id="Node000002" href="$df/d41/timer_8c.html#a9745f35ca229658cc342286ea75c0b77" title="Inicijalizira hardverski timer." alt="" coords="273,5,369,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="403,21,370,21,370,15,403,15"/>
+<area shape="rect" id="Node000003" href="$d8/d22/interrupts_8c.html#a27222af97eb47afcf4bd767ef6e935dc" title="Registrira sve prekide u sustavu." alt="" coords="112,5,225,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,21,226,21,226,15,259,15"/>
+<area shape="rect" id="Node000004" href="$d0/d29/main_8c.html#a7dfd9b79bc5a37d7df40207afbc5431f" title="Inicijalizacija svih periferija i modula." alt="" coords="5,5,64,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="98,21,64,21,64,15,98,15"/>
+</map>

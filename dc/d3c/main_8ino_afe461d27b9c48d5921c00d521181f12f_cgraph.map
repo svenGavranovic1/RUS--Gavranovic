@@ -1,0 +1,7 @@
+<map id="loop" name="loop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,56,56"/>
+<area shape="rect" id="Node000002" href="$dc/d3c/main_8ino.html#aecc5fb0104dab34a6c3c52d9ee73fa67" title="Generira trigger impuls za HC&#45;SR04." alt="" coords="104,5,219,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,36,90,29,91,34,57,41"/>
+<area shape="rect" id="Node000003" href="$dc/d3c/main_8ino.html#a69d23f143400005fb83e2dad5d15a11d" title="Ispisuje sve mjerne podatke u formatu pogodnom za Serial Plotter." alt="" coords="122,55,201,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="57,45,109,55,108,60,56,50"/>
+</map>

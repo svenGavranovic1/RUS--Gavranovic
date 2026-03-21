@@ -1,0 +1,15 @@
+<map id="interrupts_init" name="interrupts_init">
+<area shape="rect" id="Node000001" title="Registrira sve prekide u sustavu." alt="" coords="5,104,119,129"/>
+<area shape="rect" id="Node000002" href="$de/dc6/hcsr04_8c.html#af48eb96bb112c4d8b617b9109893e2f2" title="ISR za echo pin HC&#45;SR04 senzora." alt="" coords="177,5,253,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,102,165,40,173,35,176,40,168,44,81,106"/>
+<area shape="rect" id="Node000003" href="$d4/dfb/buttons_8c.html#a027eaf18581626c85e51a86e36f8fb09" title="ISR za INT0 tipkalo." alt="" coords="179,55,250,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,101,165,80,167,85,103,106"/>
+<area shape="rect" id="Node000004" href="$d4/dfb/buttons_8c.html#a3144922e8f36ee300c55641032a3791e" title="ISR za INT1 tipkalo." alt="" coords="179,104,250,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="119,114,165,114,165,119,119,119"/>
+<area shape="rect" id="Node000005" href="$d4/dfb/buttons_8c.html#a63283d0fd3b13420f43f49e188d9084f" title="ISR za INT2 tipkalo." alt="" coords="179,153,250,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="103,127,167,148,165,153,101,132"/>
+<area shape="rect" id="Node000006" href="$df/d41/timer_8c.html#a9745f35ca229658cc342286ea75c0b77" title="Inicijalizira hardverski timer." alt="" coords="167,203,263,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="82,127,168,188,178,194,175,198,165,192,79,132"/>
+<area shape="rect" id="Node000007" href="$df/d41/timer_8c.html#ada06ab1c4bbd307a9fea75726c8894f1" title="ISR za hardverski timer." alt="" coords="311,203,387,228"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="263,213,297,213,297,218,263,218"/>
+</map>

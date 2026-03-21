@@ -1,0 +1,5 @@
+<map id="src/hcsr04.h" name="src/hcsr04.h">
+<area shape="rect" id="Node000001" title="Ultrazvučni senzor HC&#45;SR04 i pripadajući prekid." alt="" coords="5,5,105,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="13,79,97,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,31,58,65,53,65,53,31"/>
+</map>
