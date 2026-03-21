@@ -20,8 +20,6 @@ USE_MDFILE_AS_MAINPAGE = README.md
 #-----------------------------------------------------------------------------
 # Izvorne datoteke
 #-----------------------------------------------------------------------------
-# OVDJE JE KLJUČNA PROMJENA:
-# Doxyfile se nalazi u RUS-Lab1, pa INPUT = .
 INPUT                  = . README.md
 RECURSIVE              = YES
 FILE_PATTERNS          = *.c *.h *.ino *.md

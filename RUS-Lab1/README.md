@@ -80,33 +80,33 @@ sequenceDiagram
 
 ## Opis modula
 
-### **buttons.c / buttons.h**
+### buttons.c / buttons.h
 - ISR‑ovi za tipkala (INT0, INT1, INT2)
 - postavljanje zastavica prekida
 - “pulse hold” mehanizam za Serial Plotter
 - obrada tipkala i upravljanje LED‑icama
 
-### **timer.c / timer.h**
+### timer.c / timer.h
 - konfiguracija hardverskog timera
 - ISR timera (svakih 500 ms)
 - obrada timer događaja i LED indikacija
 
-### **hcsr04.c / hcsr04.h**
+### hcsr04.c / hcsr04.h
 - ISR za ECHO pin (CHANGE prekid)
 - izračun udaljenosti
 - trigger funkcija
 - obrada udaljenosti i LED upozorenja
 
-### **plotter.c / plotter.h**
+### plotter.c / plotter.h
 - formatirani ispis podataka u Serial Plotter
 - udaljenost + INT0/1/2 + timer (svaki s offsetom radi preglednosti)
 
-### **interrupts.c / interrupts.h**
+### interrupts.c / interrupts.h
 - centralna registracija svih prekida
 - attachInterrupt() za tipkala i HC‑SR04
 - inicijalizacija hardverskog timera
 
-### **main.c**
+### main.c
 - inicijalizacija sustava
 - glavni loop
 - periodičko triganje HC‑SR04
@@ -133,25 +133,22 @@ Offseti omogućuju da se sve linije jasno vide u Serial Plotteru.
 
 ## 🛠️ Pokretanje projekta
 
-### **Wokwi simulacija**
+### Wokwi simulacija
 U folderu `/wokwi` nalazi se `main.ino` koji je spreman za pokretanje u Wokwi‑ju.
 
-### **ESP32 (stvarni uređaj)**
+### ESP32 (stvarni uređaj)
 1. Otvoriti projekt u Arduino IDE-u  
 2. Uključiti sve `.c` i `.h` datoteke iz `/src`  
 3. Odabrati ESP32 Dev Module  
 4. Upload
 
----
 
 ## Dokumentacija (Doxygen)
 
 Projekt je u potpunosti dokumentiran Doxygen anotacijama i nalazi se na sljedećoj poveznici: https://svengavranovic1.github.io/RUS--Gavranovic/files.html
-
 
 ## Autor
 
 Sven  
 Tehničko Veleučilište u Zagrebu
 Kolegij: RUS — Razvoj ugradbenih sustava
-
