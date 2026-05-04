@@ -1,0 +1,5 @@
+<map id="plotData" name="plotData">
+<area shape="rect" id="Node000001" title="Ispisuje sve mjerne podatke u formatu pogodnom za Serial Plotter." alt="" coords="104,5,183,31"/>
+<area shape="rect" id="Node000002" href="$d0/d29/main_8c.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title="Glavna petlja programa." alt="" coords="5,5,56,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,21,57,21,57,15,90,15"/>
+</map>

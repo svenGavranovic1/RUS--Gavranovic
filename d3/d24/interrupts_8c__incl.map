@@ -1,0 +1,16 @@
+<map id="src/interrupts.c" name="src/interrupts.c">
+<area shape="rect" id="Node000001" title="Implementacija centralne registracije prekida." alt="" coords="159,5,277,31"/>
+<area shape="rect" id="Node000002" href="$d6/ded/interrupts_8h.html" title="Centralizirana inicijalizacija svih prekida." alt="" coords="5,79,103,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,33,94,76,92,71,191,28"/>
+<area shape="rect" id="Node000004" href="$de/d05/buttons_8h.html" title="Rukovanje prekidima tipkala (INT0, INT1, INT2)." alt="" coords="127,79,210,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="212,33,187,69,182,66,208,29"/>
+<area shape="rect" id="Node000005" href="$d5/dd0/timer_8h.html" title="Hardverski timer i pripadajući prekid." alt="" coords="235,79,303,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="229,29,255,66,250,69,224,33"/>
+<area shape="rect" id="Node000006" href="$d9/d8d/hcsr04_8h.html" title="Ultrazvučni senzor HC&#45;SR04 i pripadajući prekid." alt="" coords="327,79,405,104"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="243,28,331,70,328,75,241,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,152,260,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="81,102,180,144,178,149,79,106"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="179,103,204,139,200,142,175,106"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="262,106,236,142,232,139,258,103"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="343,106,256,148,253,144,341,102"/>
+</map>

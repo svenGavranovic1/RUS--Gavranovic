@@ -1,0 +1,16 @@
+<map id="src/plotter.c" name="src/plotter.c">
+<area shape="rect" id="Node000001" title="Implementacija Serial Plotter vizualizacije." alt="" coords="147,5,246,31"/>
+<area shape="rect" id="Node000002" href="$d6/df1/plotter_8h.html" title="Vizualizacija podataka u Serial Plotteru." alt="" coords="5,79,81,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,33,82,75,80,70,171,28"/>
+<area shape="rect" id="Node000004" href="$de/d05/buttons_8h.html" title="Rukovanje prekidima tipkala (INT0, INT1, INT2)." alt="" coords="106,79,189,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="191,33,165,69,161,66,186,29"/>
+<area shape="rect" id="Node000005" href="$d5/dd0/timer_8h.html" title="Hardverski timer i pripadajući prekid." alt="" coords="213,79,281,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="207,29,233,66,229,69,203,33"/>
+<area shape="rect" id="Node000006" href="$d9/d8d/hcsr04_8h.html" title="Ultrazvučni senzor HC&#45;SR04 i pripadajući prekid." alt="" coords="306,79,383,104"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="222,28,309,70,307,75,219,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="155,152,239,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,102,160,144,158,149,67,106"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="158,103,183,139,179,142,153,106"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="241,106,215,142,211,139,237,103"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="322,106,234,148,232,144,320,102"/>
+</map>

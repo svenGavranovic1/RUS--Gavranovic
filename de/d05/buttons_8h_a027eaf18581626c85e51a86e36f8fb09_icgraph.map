@@ -1,0 +1,9 @@
+<map id="isr_int0" name="isr_int0">
+<area shape="rect" id="Node000001" title="ISR za INT0 tipkalo." alt="" coords="273,31,344,56"/>
+<area shape="rect" id="Node000002" href="$d8/d22/interrupts_8c.html#a27222af97eb47afcf4bd767ef6e935dc" title="Registrira sve prekide u sustavu." alt="" coords="112,5,225,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,37,225,31,226,26,260,32"/>
+<area shape="rect" id="Node000004" href="$dc/d3c/main_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="139,55,198,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="260,54,199,65,198,60,259,49"/>
+<area shape="rect" id="Node000003" href="$d0/d29/main_8c.html#a7dfd9b79bc5a37d7df40207afbc5431f" title="Inicijalizacija svih periferija i modula." alt="" coords="5,5,64,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,21,64,21,64,15,98,15"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="loop" name="loop">
+<area shape="rect" id="Node000001" title="Glavna petlja programa." alt="" coords="5,104,56,129"/>
+<area shape="rect" id="Node000002" href="$d4/dfb/buttons_8c.html#a6496a133ff45655cada3fa9f79ffd386" title="Obrada događaja tipkala nakon prekida." alt="" coords="104,5,227,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="39,102,66,72,102,40,111,35,113,39,106,44,70,75,43,106"/>
+<area shape="rect" id="Node000003" href="$de/dc6/hcsr04_8c.html#a0112ed402c07bd22340c091b7d8d6492" title="Obrada udaljenosti nakon prekida." alt="" coords="107,55,223,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,105,116,82,118,87,57,110"/>
+<area shape="rect" id="Node000004" href="$de/dc6/hcsr04_8c.html#aecc5fb0104dab34a6c3c52d9ee73fa67" title="Generira trigger impuls za HC&#45;SR04." alt="" coords="108,104,223,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,114,94,114,94,119,56,119"/>
+<area shape="rect" id="Node000005" href="$dc/d01/plotter_8c.html#a69d23f143400005fb83e2dad5d15a11d" title="Ispisuje sve mjerne podatke u formatu pogodnom za Serial Plotter." alt="" coords="126,153,205,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="57,123,118,146,116,151,55,128"/>
+<area shape="rect" id="Node000006" href="$df/d41/timer_8c.html#ab940d7d0896b5c5f6bc567ff73e5d515" title="Obrada događaja timera nakon prekida." alt="" coords="111,203,219,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="44,128,70,157,106,188,116,194,114,199,102,192,66,161,40,131"/>
+</map>

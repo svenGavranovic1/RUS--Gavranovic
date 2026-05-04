@@ -1,0 +1,15 @@
+<map id="setup" name="setup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,64,129"/>
+<area shape="rect" id="Node000002" href="$dc/d3c/main_8ino.html#af48eb96bb112c4d8b617b9109893e2f2" title="ISR za echo pin HC&#45;SR04 senzora." alt="" coords="122,5,198,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,102,73,72,110,40,117,35,120,40,114,44,77,76,49,106"/>
+<area shape="rect" id="Node000003" href="$dc/d3c/main_8ino.html#a027eaf18581626c85e51a86e36f8fb09" title="ISR za INT0 tipkalo." alt="" coords="125,55,195,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="63,103,113,83,115,88,65,108"/>
+<area shape="rect" id="Node000004" href="$dc/d3c/main_8ino.html#a3144922e8f36ee300c55641032a3791e" title="ISR za INT1 tipkalo." alt="" coords="125,104,195,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="64,114,111,114,111,119,64,119"/>
+<area shape="rect" id="Node000005" href="$dc/d3c/main_8ino.html#a63283d0fd3b13420f43f49e188d9084f" title="ISR za INT2 tipkalo." alt="" coords="125,153,195,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="65,126,115,146,113,151,63,131"/>
+<area shape="rect" id="Node000006" href="$dc/d3c/main_8ino.html#a9745f35ca229658cc342286ea75c0b77" title="Inicijalizira hardverski timer." alt="" coords="112,203,208,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="49,128,77,157,114,188,122,194,119,198,110,192,74,161,46,132"/>
+<area shape="rect" id="Node000007" href="$dc/d3c/main_8ino.html#ada06ab1c4bbd307a9fea75726c8894f1" title="ISR za hardverski timer." alt="" coords="256,203,332,228"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="208,213,242,213,242,218,208,218"/>
+</map>
