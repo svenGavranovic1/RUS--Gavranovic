@@ -1,0 +1,45 @@
+----------------------------------------
+STATE: Stanje ucitano iz NVS memorije (Wokwi kompatibilnost).
+WAKE: Broj budenja/pokretanja: 1
+WAKE: Razlog budenja: Prvo pokretanje ili reset simulacije
+MEASURE: Temperatura = 24.0 C, Vlaga = 40.0 %
+STORE: Spremljeno mjerenje 1/10
+ACTIVE: LED ukljucen 3 s, obrada mjerenja u tijeku...
+ACTIVE: Aktivna faza zavrsena.
+POWER: Gasim nepotrebne periferije prije sleepa.
+SLEEP: Planirani Deep Sleep traje najvise 31 sekundi.
+SLEEP: Budenje je moguce timerom ili pritiskom tipkala na D4/GPIO4.
+SLEEP: Podaci su u RTC varijablama, a za Wokwi dodatno spremljeni u NVS.
+SIM: Wokwi ne prikazuje pouzdano stvarno trajanje Deep Sleepa.
+SIM: LED je ugasen tijekom ove demonstracijske sleep pauze.
+SIM: Pritisni tipkalo na D4 za event-driven budenje prije isteka timera.
+SIM: Sleep demonstracija traje, preostalo oko 10 s.
+SIM: Tipkalo je pritisnuto tijekom sleep faze.
+SIM: Prekidam simulirani sleep i spremam button wake-up dogadaj.
+STATE: Stanje spremljeno u NVS memoriju prije sleepa.
+SLEEP: Pokrecem esp_deep_sleep_start().
+
+----------------------------------------
+STATE: Stanje ucitano iz NVS memorije (Wokwi kompatibilnost).
+WAKE: Broj budenja/pokretanja: 2
+WAKE: Razlog budenja: External GPIO wake-up tipkalom simuliran putem reset ciklusa u Wokwi
+EVENT: Tipkalo registrirano kao jedan logicki dogadaj nakon debounce/simulacijske provjere. Broj button dogadaja: 1
+WAKE: Prethodni sleep interval bio je 31 s.
+MEASURE: Temperatura = 25.1 C, Vlaga = 45.0 %
+STORE: Spremljeno mjerenje 2/10
+ACTIVE: LED ukljucen 3 s, obrada mjerenja u tijeku...
+ACTIVE: Aktivna faza zavrsena.
+POWER: Gasim nepotrebne periferije prije sleepa.
+SLEEP: Planirani Deep Sleep traje najvise 24 sekundi.
+SLEEP: Budenje je moguce timerom ili pritiskom tipkala na D4/GPIO4.
+SIM: Timer interval je istekao u Wokwi demonstraciji.
+STATE: Stanje spremljeno u NVS memoriju prije sleepa.
+SLEEP: Pokrecem esp_deep_sleep_start().
+
+----------------------------------------
+STATE: Stanje ucitano iz NVS memorije (Wokwi kompatibilnost).
+WAKE: Broj budenja/pokretanja: 3
+WAKE: Razlog budenja: Timer wake-up simuliran putem reset ciklusa u Wokwi
+WAKE: Prethodni sleep interval bio je 24 s.
+MEASURE: Temperatura = 26.0 C, Vlaga = 49.0 %
+STORE: Spremljeno mjerenje 3/10
